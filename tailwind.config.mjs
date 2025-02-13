@@ -8,8 +8,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'bg-black': '#000000', // Définir le noir pour le fond
+        'gold-rose': '#deb879 ', // Doré rosé
+        'silver': '#C0C0C0', // Argent classique
+        'white': '#FFFFFF', // Blanc classique (au cas où)
+
+      },
+      fontFamily: {
+        sans: ['"Josefin Sans"', 'sans-serif'], // Ajout de la police personnalisée
       },
     },
   },
